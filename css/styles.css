@@ -289,3 +289,10 @@ footer {
     position: relative;
   }
 }
+
+.dropdown {
+  display: none;
+}
+.dropdown.visible {
+  display: block;
+}
