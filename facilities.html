@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MSIT - Facilities</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="assets/images/pup-logo.png" alt="PUP Logo" />
+      <h1>Graduate School - Master of Science in Information Technology</h1>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="general-info.html">General Info</a>
+          <div class="dropdown-content">
+            <a href="general-info.html#history">History</a>
+            <a href="general-info.html#expectations">Expectations</a>
+          </div>
+        </li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="faculty.html">Faculty</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="facilities-intro">
+      <h2>🧪 MSIT Facilities</h2>
+      <p>Click the central button to explore our modules through a circuit-inspired interface.</p>
+    </section>
+
+    <div class="circuit-wrapper">
+      <div class="facility-button" onclick="revealCircuits()">CLICK ME!</div>
+      <div class="circuit-container hidden">
+        <div class="circuit-line">
+          <button onclick="location.href='index.html'">🔌 Module 1: Home</button>
+          <button onclick="location.href='general-info.html'">🔌 Module 2: General Info</button>
+          <button onclick="location.href='certifications.html'">🔌 Module 3: Certifications</button>
+          <button onclick="location.href='faculty.html'">🔌 Module 4: Faculty</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-nav">
+      <a href="#">PUP SIS</a>
+      <a href="#">PUP iApply</a>
+      <a href="#">PUP SINTA</a>
+      <a href="#">PUP WebMail</a>
+    </div>
+    <div class="footer-menu">
+      <a href="index.html">Home</a>
+      <a href="general-info.html">General Info</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="certifications.html">Certifications</a>
+      <a href="faculty.html">Faculty</a>
+    </div>
+    <div class="footer-logo">
+      <a href="#"><img src="assets/images/pup-logo.png" alt="PUP Logo" /></a>
+    </div>
+    <div class="footer-socials">
+      <p>“Innovate, Integrate, Inspire”</p>
+      <p>Contact: <a href="mailto:msit@pup.edu.ph">msit@pup.edu.ph</a></p>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
